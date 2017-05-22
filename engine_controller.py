@@ -17,7 +17,7 @@ try:
                           ampup=9,
                           iterations=1000)
 
-    """ start all vms """
+    """ deactivate all hosts """
     ovirt.action_executor(data_center='*',
                           action='deactivate',
                           entity_type='hosts',
